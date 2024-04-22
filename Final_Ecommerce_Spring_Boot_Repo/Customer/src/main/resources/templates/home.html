@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<!-- Basic -->
+
+<head th:replace="~{fragments::head}">
+
+
+</head>
+
+<body>
+<div th:replace="~{fragments::main-top}"></div>
+<!-- End Main Top -->
+
+<!-- Start Main Top -->
+<header th:replace="~{fragments::main-header}"></header>
+<!-- End Main Top -->
+
+<!-- Start Top Search -->
+<div th:replace="~{fragments::top-search}">
+</div>
+<!-- End Top Search -->
+
+<!-- Start Slider -->
+<div id="slides-shop" class="cover-slides">
+    <ul class="slides-container">
+        <li class="text-center">
+            <img src="images/nike-caursoul.jpeg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Welcome To <br> Market Master</strong></h1>
+                        <p class="m-b-40">Enjoy your Shopping Experience!! <br> Have you a good, fun day, go shopping!!</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="text-center">
+            <img src="images/new_products_caursel.png" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Welcome To <br> Market Master</strong></h1>
+                        <p class="m-b-40">Enjoy your Shopping Experience!! <br> Have you a good, fun day, go shopping!!</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="text-center">
+            <img src="images/apple_slider.jpeg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <h1 class="m-b-20"><strong>Welcome To <br> Market Master</strong></h1>
+                        <p class="m-b-40">Enjoy your Shopping Experience!! <br> Have you a good, fun day, go shopping!!</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="slides-navigation">
+        <a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+    </div>
+</div>
+<!-- End Slider -->
+
+
+<!-- Start About Page  -->
+<div class="about-box-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="banner-frame"><img class="img-fluid" src="images/logo.jpeg" alt=""/>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="noo-sh-title-top">We are <span>Market Master</span></h2>
+                <p>At Market Master, we believe that shopping should be fun, easy, and accessible to everyone. Launched in [Year of Establishment], our mission has always been to connect passionate sellers with enthusiastic buyers across the globe, bringing you a seamless shopping experience right from the comfort of your home</p>
+                <p>Market Master was founded on the vision of creating a marketplace that not only serves as a platform for buying and selling but as a community that fosters growth and innovation. We aim to empower small businesses and independent artists by providing them a stage to showcase their unique products to a broad audience.</p>
+                <p>Customer satisfaction is at the heart of everything we do at Market Master.</p>
+                <a class="btn hvr-hover" href="#">Read More</a>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-sm-6 col-lg-4">
+                <div class="service-block-inner">
+                    <h3>We are Trusted</h3>
+                    <p>Trusted by thousands worldwide, Market Master is renowned for its unwavering commitment to quality and customer satisfaction.
+                        Join our community of satisfied customers and experience a shopping journey you can always depend on. </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="service-block-inner">
+                    <h3>We are Professional</h3>
+                    <p>At Market Master, professionalism is at the core of everything we do. Our team is dedicated to maintaining the highest standards of service and expertise to ensure an unmatched shopping experience for all our customers.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="service-block-inner">
+                    <h3>We are Expert</h3>
+                    <p>Market Master is powered by a team of industry experts who bring decades of experience to curate a selection unmatched in quality and innovation. We understand the market so you can enjoy the best products without compromise.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Start Feed  -->
+<div th:replace="~{fragments::instagram-box}">
+</div>
+
+<!-- End Feed  -->
+
+
+<!-- Start Footer  -->
+<footer th:replace="~{fragments::footer}">
+
+</footer>
+
+
+<!-- ALL JS FILES -->
+<div th:replace="~{fragments::script}"></div>
+</body>
+
+</html>
